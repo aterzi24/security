@@ -3,12 +3,9 @@ spring:
     url: jdbc:postgresql://localhost:5432/security
     username: admin
     password: admin
-    driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
       ddl-auto: update
-    database: postgresql
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
 
 app:
   secret-key: 4F9A93E69886ED229F3494237EDD1BD18E4E56B9FC73121A1A122C8A2957D771
